@@ -1,0 +1,421 @@
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=305bbfb4-04da-49bf-935b-2610f85d77fa");
+/* line 8, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+html {
+  font-family: "proxima-nova", sans-serif;
+}
+
+/* line 15, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+h1 {
+  color: #fff;
+  font-size: 3em;
+  padding: 15px;
+}
+
+/* line 20, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+h2 {
+  color: black;
+}
+
+/* line 23, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.subtitle {
+  color: #fff;
+  padding: 15px;
+}
+
+/* line 27, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 31, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+header {
+  background: url("https://checkr.com/wp-content/uploads/2015/10/checkr_header_industries-1.jpg") rgba(117, 190, 218, 0.8);
+  background-size: cover;
+  height: 770px;
+}
+
+/* line 36, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+header:not div {
+  filter: blur(5px) grayscale(20%);
+  /* voir pour le blue */
+}
+
+/* line 39, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.spacer {
+  margin-top: 25px;
+}
+
+/* line 42, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.spacer-top {
+  margin-top: 50px;
+}
+
+/* line 45, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.spacer-bottom {
+  margin-bottom: 50px;
+}
+
+/* line 48, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.span-size {
+  width: 100px;
+}
+
+/* line 51, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.float-right {
+  float: right;
+}
+
+/* line 54, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.left-section {
+  width: 49%;
+  height: 400px;
+  float: left;
+  margin-top: 200px;
+}
+
+/* line 60, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.right-section {
+  width: 49%;
+  height: 600px;
+  float: right;
+  margin-top: 60px;
+}
+
+/* line 66, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.btn {
+  height: 60px;
+  width: 200px;
+  background-color: #E0BE2D;
+  padding-left: 25px;
+  color: #333;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+/* line 76, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.btn-txt {
+  line-height: 60px;
+  vertical-align: top;
+}
+
+/* line 80, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.btn-alt {
+  border: 2px solid #E0BE2D;
+  border-radius: 5px;
+  color: #E0BE2D;
+  padding: 15px;
+}
+
+/* line 86, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.arrow-btn {
+  line-height: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* line 91, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* line 98, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+div a:hover {
+  opacity: 0.5;
+}
+
+/* line 101, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 106, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li {
+  display: inline-block;
+}
+
+/* line 109, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li:hover {
+  /**/
+}
+
+/* line 110, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li:hover ul {
+  display: block;
+}
+
+/* line 111, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li ul {
+  position: absolute;
+  width: 120px;
+  display: none;
+}
+
+/* line 116, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.large {
+  width: 300px;
+}
+
+/* line 119, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.large a {
+  display: inline-block !important;
+}
+
+/* line 122, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.title-menu {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+/* line 126, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li ul li {
+  background: #fff;
+  display: block;
+}
+
+/* line 130, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li ul li a {
+  display: block !important;
+  color: #333;
+}
+
+/* line 134, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li ul li:hover {
+  background: #fff;
+}
+
+/* line 137, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+ul li ul li a:hover {
+  color: blue;
+}
+
+/* line 140, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 143, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+video {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  -moz-user-select: none;
+}
+
+/* line 149, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.green {
+  color: #87CEAA;
+}
+
+/* */
+/* */
+/* line 154, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 20px 80px;
+  grid-template-columns: 17% 17% 17% 17% 17%;
+  grid-column-gap: 2%;
+}
+/* line 162, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners div:nth-child(1) {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  text-align: center;
+}
+/* line 167, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners div:nth-child(2) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: flex;
+  align-items: center;
+}
+/* line 173, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners div:nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 181, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners div:nth-child(4) {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 189, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners div:nth-child(5) {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 197, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.partners div:nth-child(6) {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* */
+/* */
+/* line 210, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.details-offer {
+  background-color: #f4f9fc;
+  border-bottom: 1px solid #AAA;
+  border-top: 1px solid #AAA;
+}
+/* line 214, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.details-offer .container2 {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #222;
+}
+/* line 219, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.details-offer .container2-details-offer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* line 225, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.details-offer .content {
+  flex: 0 0 28%;
+  padding: 2%;
+}
+/* line 229, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.details-offer .content p {
+  text-align: center;
+  color: #777;
+}
+
+/* line 236, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.tomottoWrap {
+  position: relative;
+  background: #3CA2A2;
+}
+
+/* line 241, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+#tomotto {
+  text-align: center;
+  width: 960px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  line-height: 36px;
+  margin: auto;
+}
+
+/* line 250, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.lookWrap {
+  position: relative;
+  background-color: #215A6D;
+  float: left;
+  width: 100%;
+}
+
+/* line 256, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+#look {
+  margin: auto;
+  width: 1050px;
+}
+
+/* line 261, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.section {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 160px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+
+/* line 270, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.section-2 {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 320px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+
+/* line 279, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.section h3 {
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+/* line 285, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.section-2 h3 {
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+/* line 291, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.section a {
+  display: block;
+}
+
+/* line 294, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.legality {
+  margin: auto;
+  width: 700px;
+  text-align: center;
+  clear: both;
+  font: 10pt verdana;
+  line-height: 2em;
+  padding: 40px 0 0 0;
+}
+
+/* line 303, /home/julien/THP/landing-pages/app/assets/stylesheets/home.scss */
+.span-size-2 {
+  width: 150px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+ 

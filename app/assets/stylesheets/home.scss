@@ -1,0 +1,305 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=305bbfb4-04da-49bf-935b-2610f85d77fa");
+
+$yellow: #E0BE2D; 
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: "proxima-nova", sans-serif;
+}
+h1{
+	color: #fff;
+	font-size: 3em;
+	padding: 15px;
+}
+h2 {
+	color: black;
+}
+.subtitle {
+	color: #fff;
+	padding: 15px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+header {
+	background: url("https://checkr.com/wp-content/uploads/2015/10/checkr_header_industries-1.jpg") rgba(117, 190, 218, 0.8);
+	background-size: cover;
+	height: 770px;
+}
+header:not div {
+	filter: blur(5px) grayscale(20%); /* voir pour le blue */
+}
+.spacer {
+	margin-top: 25px; 
+}
+.spacer-top {
+	 margin-top: 50px;
+}
+.spacer-bottom {
+	margin-bottom: 50px;
+}
+.span-size {
+	width: 100px;
+}
+.float-right {
+	float: right;
+}
+.left-section {
+	width: 49%;
+	height: 400px;
+	float: left;
+	margin-top: 200px;
+}
+.right-section {
+	width: 49%;
+	height: 600px;
+	float: right;
+	margin-top: 60px;
+}
+.btn {
+	height: 60px;
+	width: 200px;
+	background-color: $yellow; 
+	padding-left: 25px;
+	color: #333;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: 15px;
+}
+.btn-txt {
+	line-height: 60px;
+	vertical-align: top;
+}
+.btn-alt {
+	border: 2px solid $yellow;
+	border-radius: 5px;
+	color: $yellow; 
+	padding: 15px;
+}
+.arrow-btn {
+	line-height: 60px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    display:inline-block;
+}
+div a:hover {
+	opacity: 0.5;
+}
+ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	display: inline-block;
+}
+ul li:hover {/**/}
+ul li:hover ul {display: block;}
+ul li ul {
+	position: absolute;
+	width: 120px;
+	display: none;
+}
+.large {
+	width: 300px;	
+}
+.large a {
+	display: inline-block !important;
+}
+.title-menu {
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+ul li ul li { 
+	background: #fff; 
+	display: block; 
+}
+ul li ul li a { 
+	display:block !important; 
+	color: #333; 
+} 
+ul li ul li:hover { 
+	background: #fff; 
+}
+ul li ul li a:hover { 
+	color: blue; 
+}
+.inline-block {
+	display: inline-block;
+}
+video {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    -moz-user-select: none;
+}
+.green {
+	color: #87CEAA;
+}
+/* */ /* */
+
+    .partners {
+        width:70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: auto 20px 80px;
+        grid-template-columns: 17% 17% 17% 17% 17%;
+        grid-column-gap: 2%;
+
+        div:nth-child(1){
+            grid-column:1/6;
+            grid-row:1/2;
+            text-align: center;
+        }
+        div:nth-child(2){
+            grid-column:1/2;
+            grid-row:3/4;
+            display: flex;
+            align-items: center;
+        }
+        div:nth-child(3){
+            grid-column:2/3;
+            grid-row:3/4;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-child(4){
+            grid-column:3/4;
+            grid-row:3/4;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-child(5){
+            grid-column:4/5;
+            grid-row:3/4;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-child(6){
+            grid-column:5/6;
+            grid-row:3/4;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+/* */ 
+/* */
+
+.details-offer {
+    background-color: #f4f9fc;
+    border-bottom: 1px solid #AAA;
+    border-top: 1px solid #AAA;
+    .container2 {
+        text-align: center;
+        width:80%;
+        margin: 0 auto;
+        color: #222;}
+    .container2-details-offer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content {
+        flex: 0 0 28%;
+        padding: 2%;
+    }
+    .content p {
+        text-align: center;
+        color: #777;
+    }
+}
+
+
+.tomottoWrap{
+  position: relative;
+  background: #3CA2A2;
+}
+
+#tomotto {
+  text-align: center;
+  width: 960px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  line-height: 36px;
+  margin: auto;
+}
+
+.lookWrap {
+  position: relative; 
+  background-color: #215A6D;
+  float: left;
+  width: 100%;
+}
+#look {
+  margin: auto;
+  width: 1050px;
+}
+
+.section {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 160px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+.section-2 {
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 320px;
+  margin: 0 15px 15px 0;
+  font: 10pt verdana;
+  line-height: 1.6em;
+}
+.section h3 {
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.section-2 h3 {
+  font-weight: normal;
+  font: 12pt Georgia;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.section a {
+  display: block;
+}
+.legality {
+  margin: auto;
+  width: 700px;
+  text-align: center;
+  clear: both;
+  font: 10pt verdana;
+  line-height: 2em;
+  padding: 40px 0 0 0;
+}
+.span-size-2 {
+	width: 150px;
+}
